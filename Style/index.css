@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 969px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://www.xtrafondos.com/descargar.php?id=5846&resolucion=3840x2160');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.card {
+    background: #fff;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card form {
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 400px;
+    justify-content: center;
+}
+
+.input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.input input {
+    border-style: none;
+    width: 100%;
+    height: 30px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    border-color: #F78FCC;
+    background-color: #F78FCC;
+}
+
+.check {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.check p {
+    margin-left: 5px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+.check label{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.check label:hover{
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+input[type="checkbox"]:checked + label{
+    background-color: #F78FCC;
+    border-color: #F78FCC;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin-bottom: -60px;
+    margin-top: 80px;   
+}
